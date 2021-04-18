@@ -172,3 +172,26 @@
 //     alert("Try again")
 // }
 
+// 8.Write a program to check whether the given number isdivisible by 3. Show the message to the user if the numberis divisible by 3.
+// Nai Ata
+// 9.Write a program that checks whether the given input is an even number or an odd number.
+// Nai Ata
+
+// Write a program that takes temperature as input and shows a message based on following criteria
+
+// var temperature = +prompt("Enter Temperature")
+// if (temperature === 40){
+//     alert("Too Hot Out Side")
+// }
+// if (temperature === 30){
+//     alert("The Weather Today Is Normal")
+// }
+// if (temperature === 40){
+//     alert("Today's Weather is Cool")
+// }
+// if (temperature === 40){
+//     alert("OMG Today's Weather is SO Cool")
+// }
+
+// Write a program to create a calculator for +,-,*, / & % using if statements. Take the following input:
+var number1 = +prompt("Enter Your First")
