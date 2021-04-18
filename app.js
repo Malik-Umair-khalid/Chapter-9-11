@@ -104,55 +104,56 @@
 
 // 6.Write a program to take input the marks obtained in threesubjects & total marks. Compute & show the resultingpercentage on your page. Take percentage & computegrade as per following table:
 
-var marksObtained = +prompt("Enter Marks Obtained")
-var totalMarks = +prompt ("Enter Total Marks")
-var percentage = marksObtained / totalMarks * 100
+// var marksObtained = +prompt("Enter Marks Obtained")
+// var totalMarks = +prompt ("Enter Total Marks")
+// var percentage = marksObtained / totalMarks * 100
  
-if(percentage >= 80) {
-    document.write("<h1> Marks Sheet </h1>")
-    document.write("Total Marks", "&nbsp", "=", "&nbsp", totalMarks, "<br>")
-    document.write("Marks Obtained", "&nbsp", "=", "&nbsp", marksObtained, "<br>")
-    document.write("Your Percentage", "&nbsp", "=", "&nbsp", percentage, "%", "<br>")
-    document.write("Grade", "&nbsp", "=", "A+", "<br>")
-    document.write("Remarks", "&nbsp", "=", "&nbsp", "Exellent", "<br>")
-}
-else if(percentage >= 70, percentage < 80) {
-    document.write("<h1> Marks Sheet </h1>")
-    document.write("Total Marks", "&nbsp", "=", "&nbsp", totalMarks, "<br>")
-    document.write("Marks Obtained", "&nbsp", "=", "&nbsp", marksObtained, "<br>")
-    document.write("Your Percentage", "&nbsp", "=", "&nbsp", percentage, "<br>")
-    document.write("Grade", "&nbsp", "=", "A", "<br>")
-    document.write("Remarks", "&nbsp", "=", "&nbsp", "Good", "<br>")
-}
-else if(percentage >= 60, percentage < 70) {
-    document.write("<h1> Marks Sheet </h1>")
-    document.write("Total Marks", "&nbsp", "=", "&nbsp", totalMarks, "<br>")
-    document.write("Marks Obtained", "&nbsp", "=", "&nbsp", marksObtained, "<br>")
-    document.write("Your Percentage", "&nbsp", "=", "&nbsp", percentage, "<br>")
-    document.write("Grade", "&nbsp", "=", "B", "<br>")
-    document.write("Remarks", "&nbsp", "=", "&nbsp", "You Need To Improve", "<br>")
-}
-if(percentage >= 50, percentage < 60) {
-    document.write("<h1> Marks Sheet </h1>")
-    document.write("Total Marks", "&nbsp", "=", "&nbsp", totalMarks, "<br>")
-    document.write("Marks Obtained", "&nbsp", "=", "&nbsp", marksObtained, "<br>")
-    document.write("Your Percentage", "&nbsp", "=", "&nbsp", percentage, "<br>")
-    document.write("Grade", "&nbsp", "=", "C", "<br>")
-    document.write("Remarks", "&nbsp", "=", "&nbsp", "Tri Again", "<br>")
-}
-if(percentage >= 35, percentage < 50) {
-    document.write("<h1> Marks Sheet </h1>")
-    document.write("Total Marks", "&nbsp", "=", "&nbsp", totalMarks, "<br>")
-    document.write("Marks Obtained", "&nbsp", "=", "&nbsp", marksObtained, "<br>")
-    document.write("Your Percentage", "&nbsp", "=", "&nbsp", percentage, "<br>")
-    document.write("Grade", "&nbsp", "=", "D", "<br>")
-    document.write("Remarks", "&nbsp", "=", "&nbsp", "Fail", "<br>")
-}
-if(percentage >= 25, percentage < 35) {
-    document.write("<h1> Marks Sheet </h1>")
-    document.write("Total Marks", "&nbsp", "=", "&nbsp", totalMarks, "<br>")
-    document.write("Marks Obtained", "&nbsp", "=", "&nbsp", marksObtained, "<br>")
-    document.write("Your Percentage", "&nbsp", "=", "&nbsp", percentage, "<br>")
-    document.write("Grade", "&nbsp", "=", "F", "<br>")
-    document.write("Remarks", "&nbsp", "=", "&nbsp", "Fail", "<br>")
-}
+// if(percentage >= 80) {
+//     document.write("<h1> Marks Sheet </h1>")
+//     document.write("Total Marks", "&nbsp", "=", "&nbsp", totalMarks, "<br>")
+//     document.write("Marks Obtained", "&nbsp", "=", "&nbsp", marksObtained, "<br>")
+//     document.write("Your Percentage", "&nbsp", "=", "&nbsp", percentage, "%", "<br>")
+//     document.write("Grade", "&nbsp", "=", "A+", "<br>")
+//     document.write("Remarks", "&nbsp", "=", "&nbsp", "Exellent", "<br>")
+// }
+// if(percentage >= 70, percentage < 80) {
+//     document.write("<h1> Marks Sheet </h1>")
+//     document.write("Total Marks", "&nbsp", "=", "&nbsp", totalMarks, "<br>")
+//     document.write("Marks Obtained", "&nbsp", "=", "&nbsp", marksObtained, "<br>")
+//     document.write("Your Percentage", "&nbsp", "=", "&nbsp", percentage, "%", "<br>")
+//     document.write("Grade", "&nbsp", "=", "A", "<br>")
+//     document.write("Remarks", "&nbsp", "=", "&nbsp", "Good", "<br>")
+// }
+// if(percentage >= 60, percentage < 70) {
+//     document.write("<h1> Marks Sheet </h1>")
+//     document.write("Total Marks", "&nbsp", "=", "&nbsp", totalMarks, "<br>")
+//     document.write("Marks Obtained", "&nbsp", "=", "&nbsp", marksObtained, "<br>")
+//     document.write("Your Percentage", "&nbsp", "=", "&nbsp", percentage, "%", "<br>")
+//     document.write("Grade", "&nbsp", "=", "B", "<br>")
+//     document.write("Remarks", "&nbsp", "=", "&nbsp", "You Need To Improve", "<br>")
+// }
+// if(percentage >= 50, percentage < 60) {
+//     document.write("<h1> Marks Sheet </h1>")
+//     document.write("Total Marks", "&nbsp", "=", "&nbsp", totalMarks, "<br>")
+//     document.write("Marks Obtained", "&nbsp", "=", "&nbsp", marksObtained, "<br>")
+//     document.write("Your Percentage", "&nbsp", "=", "&nbsp", percentage, "%", "<br>")
+//     document.write("Grade", "&nbsp", "=", "C", "<br>")
+//     document.write("Remarks", "&nbsp", "=", "&nbsp", "Tri Again", "<br>")
+// }
+// if(percentage >= 35, percentage < 50) {
+//     document.write("<h1> Marks Sheet </h1>")
+//     document.write("Total Marks", "&nbsp", "=", "&nbsp", totalMarks, "<br>")
+//     document.write("Marks Obtained", "&nbsp", "=", "&nbsp", marksObtained, "<br>")
+//     document.write("Your Percentage", "&nbsp", "=", "&nbsp", percentage, "%", "<br>")
+//     document.write("Grade", "&nbsp", "=", "D", "<br>")
+//     document.write("Remarks", "&nbsp", "=", "&nbsp", "Fail", "<br>")
+// }
+// if(percentage >= 25, percentage < 35) {
+//     document.write("<h1> Marks Sheet </h1>")
+//     document.write("Total Marks", "&nbsp", "=", "&nbsp", totalMarks, "<br>")
+//     document.write("Marks Obtained", "&nbsp", "=", "&nbsp", marksObtained, "<br>")
+//     document.write("Your Percentage", "&nbsp", "=", "&nbsp", percentage, "%", "<br>")
+//     document.write("Grade", "&nbsp", "=", "F", "<br>")
+//     document.write("Remarks", "&nbsp", "=", "&nbsp", "Fail", "<br>")
+// }
+
