@@ -157,3 +157,18 @@
 //     document.write("Remarks", "&nbsp", "=", "&nbsp", "Fail", "<br>")
 // }
 
+// 7. Store a secret number (ranging from 1 to 10) in a variable. Prompt user to guess the secret number.a. If user guesses the same number, show “Bingo! Correctanswer”.b. If the guessed number +1 is the secret number, show“Close enough to the correct answer”.
+
+// var number = 8;
+// var guess = +prompt("Guess The Number")
+
+// if (guess === 8){
+//     alert("Bringo Correct Answer")
+// }
+// else if (guess === 9, guess === 7){
+//     alert("Close Enough To The Correct Answer")
+// }
+// else{
+//     alert("Try again")
+// }
+
