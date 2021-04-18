@@ -33,3 +33,11 @@
 // else {
 //     alert ("Try Agian")
 // }
+
+// 4.Write a program to take input remaining fuel in car (in litres) from user. If the current fuel is less than 0.25litres, show the message “Please refill the fuel in your car”
+
+// var fuel = +prompt ("Remaining Fuel In Car In Litres")
+// if (fuel < "0.25" ){
+//     alert ("Plese Re Fill The Fuel In Your car")
+// }
+
