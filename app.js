@@ -41,3 +41,42 @@
 //     alert ("Plese Re Fill The Fuel In Your car")
 // }
 
+// 5. Run this script, & check whether alert message would be displayed or not. Record the outputs
+
+// var a = 4;
+// if (++a === 5){
+// alert("given condition for variable a is true");
+// }
+// Working
+
+// var b = 82;
+// if (b++ === 83){
+// alert("given condition for variable b is true");
+// }
+
+// // Not Working
+
+// var c = 12;
+// if (c++ === 13){
+// alert("condition 1 is true");
+// }
+
+// // Not Working
+
+// if (c === 13){
+// alert("condition 2 is true");
+// }
+
+// // Working
+
+// if (++c < 14){
+// alert("condition 3 is true");
+// }
+
+// // Not Working
+
+// if(c === 14){
+// alert("condition 4 is true");
+// }
+
+// // Working
