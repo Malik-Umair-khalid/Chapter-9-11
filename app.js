@@ -172,10 +172,27 @@
 //     alert("Try again")
 // }
 
-// 8.Write a program to check whether the given number isdivisible by 3. Show the message to the user if the numberis divisible by 3.
-// Nai Ata
+// 8.Write a program to check whether the given number is divisible by 3. Show the message to the user if the number is divisible by 3.
+
+// var number = +prompt("Enter Your Number");
+
+// if ((number % 3) === 0){
+//     alert("Your Number is Divisible by 3")
+// }
+// else {
+//     alert("Your Number is not Divisible by 3")
+// }
+
 // 9.Write a program that checks whether the given input is an even number or an odd number.
-// Nai Ata
+
+// var number = +prompt("Enter Your Number");
+
+// if ((number % 2) === 0){
+//     alert("Your Number is even")
+// }
+// else {
+//     alert("Your Number is Odd")
+// }
 
 // Write a program that takes temperature as input and shows a message based on following criteria
 
@@ -194,4 +211,20 @@
 // }
 
 // Write a program to create a calculator for +,-,*, / & % using if statements. Take the following input:
-var number1 = +prompt("Enter Your First")
+
+// var number1 = +prompt("Enter Your First Number")
+// var number2 = +prompt("Enter Your Second Number")
+// var operation = +prompt("1 For +, 2 for -, 3 for x, and 4 for /")
+
+// if (operation === 1){
+//     alert(number1 + number2)
+// }
+// else if (operation === 2){
+//     alert(number1 - number2)
+// }
+// else if (operation === 3){
+//     alert(number1 * number2)
+// }
+// else if (operation === 4){
+//     alert(number1 / number2)
+// }
