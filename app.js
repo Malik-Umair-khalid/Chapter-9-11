@@ -116,7 +116,7 @@
 //     document.write("Grade", "&nbsp", "=", "A+", "<br>")
 //     document.write("Remarks", "&nbsp", "=", "&nbsp", "Exellent", "<br>")
 // }
-// if(percentage >= 70, percentage < 80) {
+// if(percentage >= 70 && percentage < 80) {
 //     document.write("<h1> Marks Sheet </h1>")
 //     document.write("Total Marks", "&nbsp", "=", "&nbsp", totalMarks, "<br>")
 //     document.write("Marks Obtained", "&nbsp", "=", "&nbsp", marksObtained, "<br>")
@@ -124,7 +124,7 @@
 //     document.write("Grade", "&nbsp", "=", "A", "<br>")
 //     document.write("Remarks", "&nbsp", "=", "&nbsp", "Good", "<br>")
 // }
-// if(percentage >= 60, percentage < 70) {
+// if(percentage >= 60 && percentage < 70) {
 //     document.write("<h1> Marks Sheet </h1>")
 //     document.write("Total Marks", "&nbsp", "=", "&nbsp", totalMarks, "<br>")
 //     document.write("Marks Obtained", "&nbsp", "=", "&nbsp", marksObtained, "<br>")
@@ -132,7 +132,7 @@
 //     document.write("Grade", "&nbsp", "=", "B", "<br>")
 //     document.write("Remarks", "&nbsp", "=", "&nbsp", "You Need To Improve", "<br>")
 // }
-// if(percentage >= 50, percentage < 60) {
+// if(percentage >= 50 && percentage < 60) {
 //     document.write("<h1> Marks Sheet </h1>")
 //     document.write("Total Marks", "&nbsp", "=", "&nbsp", totalMarks, "<br>")
 //     document.write("Marks Obtained", "&nbsp", "=", "&nbsp", marksObtained, "<br>")
@@ -140,7 +140,7 @@
 //     document.write("Grade", "&nbsp", "=", "C", "<br>")
 //     document.write("Remarks", "&nbsp", "=", "&nbsp", "Tri Again", "<br>")
 // }
-// if(percentage >= 35, percentage < 50) {
+// if(percentage >= 35 && percentage < 50) {
 //     document.write("<h1> Marks Sheet </h1>")
 //     document.write("Total Marks", "&nbsp", "=", "&nbsp", totalMarks, "<br>")
 //     document.write("Marks Obtained", "&nbsp", "=", "&nbsp", marksObtained, "<br>")
@@ -148,7 +148,7 @@
 //     document.write("Grade", "&nbsp", "=", "D", "<br>")
 //     document.write("Remarks", "&nbsp", "=", "&nbsp", "Fail", "<br>")
 // }
-// if(percentage >= 25, percentage < 35) {
+// if(percentage >= 5 && percentage < 35) {
 //     document.write("<h1> Marks Sheet </h1>")
 //     document.write("Total Marks", "&nbsp", "=", "&nbsp", totalMarks, "<br>")
 //     document.write("Marks Obtained", "&nbsp", "=", "&nbsp", marksObtained, "<br>")
